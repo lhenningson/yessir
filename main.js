@@ -24,6 +24,14 @@ function btnClicked() {
     document.getElementById("char-name").innerHTML = "Monkey";
     document.getElementById("char-quote").innerHTML = "Ooh Ah Ah!";
     document.getElementById("char-img").src = "img/monkey.png";
+  } else if (name === "Viper") {
+      document.getElementById("char-name").innerHTML = "Viper";
+      document.getElementById("char-quote").innerHTML = "SSssssssSSssSss!";
+      document.getElementById("char-img").src = "img/viper.png";
+  }  else if (name === "Oogway") {
+    document.getElementById("char-name").innerHTML = "Oogway";
+    document.getElementById("char-quote").innerHTML = "Pretty Tree!";
+    document.getElementById("char-img").src = "img/oogway.png";
   } else {
     document.getElementById("char-name").innerHTML = "??????";
     document.getElementById("char-quote").innerHTML = "-----------";
